@@ -3,6 +3,7 @@
     <string name="select_your_school">Select your school</string>
 
     <string-array name = "names">
+        <item> Select an Institution </item>
         <item> University of Toronto </item>
         <item> McMaster University</item>
         <item> University of Waterloo</item>

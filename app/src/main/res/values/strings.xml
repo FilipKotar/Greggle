@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Fatt</string>
+
+    <string-array name = "names">
+        <item> University of Toronto </item>
+        <item> McMaster University</item>
+        <item> University of Waterloo</item>
+        <item> Brock University</item>
+        <item> University of Guelph </item>
+    </string-array>
 </resources>

@@ -7,7 +7,7 @@
     tools:context="com.example.fatt32.fatt.MainActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/Login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="128dp"
@@ -18,7 +18,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/Account_Creation"
         android:layout_width="wrap_content"
         android:layout_height="52dp"
         android:layout_marginTop="56dp"
@@ -26,10 +26,10 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintTop_toBottomOf="@+id/Login" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/Guest"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="56dp"
@@ -37,5 +37,5 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintTop_toBottomOf="@+id/Account_Creation" />
 </android.support.constraint.ConstraintLayout>

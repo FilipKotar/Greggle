@@ -17,7 +17,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="104dp"
         android:scaleType="centerInside"
-        app:srcCompat="@drawable/Beats_Electronics_logo" />
+        app:srcCompat="@drawable/beats_electronics_logo" />
 
     <EditText
         android:id="@+id/enter_username"

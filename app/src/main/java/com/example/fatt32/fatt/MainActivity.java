@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void guestAct(View view) {
         // Do something in response to Guest button.
-        Intent intent = new Intent(this, SchoolActivity.class);
+        Intent intent = new Intent(this, SchoolSelection.class);
         startActivity(intent);
         finish();
     }

@@ -24,7 +24,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
+        <activity android:name=".SignUpPage" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".SchoolActivity" />
+        <activity android:name=".SchoolSelection" />
         <uses-library
             android:name="com.google.android.wearable"
             android:required="false" />

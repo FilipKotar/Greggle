@@ -16,9 +16,8 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="104dp"
-        android:scaleType="centerInside" />
-        <!--app:srcCompat="@drawable/Beats_Electronics_logo"
-        -->
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/trans_logo" />
 
     <EditText
         android:id="@+id/enter_username"
@@ -61,17 +60,14 @@
         <RelativeLayout
             android:id="@+id/log_in"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:clickable="true"
-            android:onClick="loginAct">
+            android:layout_height="match_parent">
 
 
             <TextView
                 android:id="@+id/textView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_centerHorizontal="true"
-                android:layout_centerVertical="true"
+                android:layout_centerInParent="true"
                 android:text="Login"
                 android:textColor="#FFF"
                 android:textSize="20dp" />
@@ -86,10 +82,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="19dp"
         android:text="Create an account"
-        android:textSize="14dp"
-        android:clickable="true"
-        android:onClick="accountCreation"
-        />
+        android:textSize="14dp" />
 
     <TextView
         android:id="@+id/guest_login"
@@ -99,9 +92,6 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="50dp"
         android:text="Guest login"
-        android:textSize="14dp"
-        android:clickable="true"
-        android:onClick="guestAct"
-        />
+        android:textSize="14dp" />
 
 </RelativeLayout>

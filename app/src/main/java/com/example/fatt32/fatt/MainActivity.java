@@ -24,18 +24,21 @@ public class MainActivity extends AppCompatActivity {
         // Do something in response to Account button
         Intent intent = new Intent(this, SignUpPage.class);
         startActivity(intent);
+        finish();
     }
 
     public void guestAct(View view) {
         // Do something in response to Guest button.
         Intent intent = new Intent(this, SchoolActivity.class);
         startActivity(intent);
+        finish();
     }
 
     public void loginAct(View view) {
         // Do something in response to Login button.
         Intent intent = new Intent(this, LoginActivity.class);
         startActivity(intent);
+        finish();
     }
 
 }

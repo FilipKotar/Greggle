@@ -15,8 +15,8 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="140dp"
-        android:textSize="30dp"
-        android:text="Select your school" />
+        android:textSize="30sp"
+        android:text="@string/select_your_school" />
 
     <Spinner
         android:id="@+id/school_pick"

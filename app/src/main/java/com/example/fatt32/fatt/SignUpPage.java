@@ -6,6 +6,7 @@ import android.text.TextUtils;
 import android.util.Patterns;
 import android.view.View;
 import android.widget.EditText;
+import android.content.Intent;
 
 public class SignUpPage extends AppCompatActivity {
 
@@ -21,9 +22,17 @@ public class SignUpPage extends AppCompatActivity {
 
     public void submitAccount(View view) {
         EditText edit_text   = (EditText)findViewById(R.id.email_field);
-
-        if (!isValidEmail(edit_text.getText())){
+        Intent schoolAct = new Intent(this, SchoolActivity.class);
+        // If the email is not valid then,
+        if (!isValidEmail(edit_text.getText())) {
+            // Client gets "Invalid Email" and has to retry.
             edit_text.setText("Invalid Email");
-        }
+            // Otherwise,
+        } else {
+            // Go to School selection.
+            startActivity(schoolAct);
+            // Kill off this activity.
+            finish();
+            }
     }
 }

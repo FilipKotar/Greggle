@@ -10,10 +10,12 @@
         <item> Brock University</item>
         <item> University of Guelph </item>
     </string-array>
-    <string name="title_activity_navigation">navigation</string>
+    <string name="title_activity_navigation">Gregle</string>
+    <string name="course1">CSC148</string>
+    <string name="course2">CSC157</string>
+    <string name="course3">CSC302</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
-    <string name="action_settings">Settings</string>
 </resources>

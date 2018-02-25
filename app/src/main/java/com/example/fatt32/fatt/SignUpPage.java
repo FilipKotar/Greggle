@@ -73,5 +73,7 @@ public class SignUpPage extends AppCompatActivity {
             // Kill off this activity.
             finish();
             }
+
     }
+
 }

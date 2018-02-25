@@ -36,6 +36,8 @@
         android:layout_below="@+id/school_pick"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="154dp"
+        android:clickable="true"
+        android:onClick="mainMenu"
         app:cardBackgroundColor="@color/colorPrimary"
         app:cardCornerRadius="25dp">
 

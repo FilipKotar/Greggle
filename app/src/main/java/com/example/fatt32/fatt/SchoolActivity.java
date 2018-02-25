@@ -1,7 +1,9 @@
 package com.example.fatt32.fatt;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 
 public class SchoolActivity extends AppCompatActivity {
 
@@ -10,4 +12,5 @@ public class SchoolActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_school);
     }
+
 }

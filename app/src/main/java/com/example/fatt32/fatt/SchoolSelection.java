@@ -1,7 +1,9 @@
 package com.example.fatt32.fatt;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 
@@ -21,4 +23,12 @@ public class SchoolSelection extends AppCompatActivity {
         mySpinner.setAdapter(myAdapter);
 
     }
-}
+    public void mainMenu(View view) {
+        // Do something in response to Login button.
+        Intent intent = new Intent(this, navigation.class);
+        startActivity(intent);
+        finish();
+    }
+    }
+
+

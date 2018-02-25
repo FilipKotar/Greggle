@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "815481344361",
+    "firebase_url": "https://gregle-eb24b.firebaseio.com",
+    "project_id": "gregle-eb24b",
+    "storage_bucket": "gregle-eb24b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:815481344361:android:3ea85d08a4ca43cf",
+        "android_client_info": {
+          "package_name": "com.example.fatt32.fatt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "815481344361-di5sr1mdh0tfdsemrgqh7srm17mc3a03.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhejnE-4bdLm7mLMn8XNZ3Rbop5QYWfig"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

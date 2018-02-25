@@ -52,7 +52,7 @@ public class SignUpPage extends AppCompatActivity {
         // If the email is not valid then,
         if (!isValidEmail(edit_text.getText())) {
             // Client gets "Invalid Email" and has to retry.
-            edit_text.setText("Invalid Email");
+            edit_text.setError("Invalid Email");
             // Otherwise,
         }
 
